@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Analog Clock</h1>
+   <div class="clock">
+    <div class="numbers">
+        <div class="twelve">12</div>
+        <div class="three">3</div>
+        <div class="six">6</div>
+        <div class="nine">9</div>
+    </div>
+    <div class="arrows">
+        <div class="hour"></div>
+        <div class="minute"></div>
+        <div class="second"></div>
+    </div>
+    <img src="data:image/png;base64,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" alt="rolex-logo"> 
+   </div>
+<script src="index.js"></script>
+</body>
+</html>
